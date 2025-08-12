@@ -1,0 +1,38 @@
+﻿@model CRUDOprationPractise.Models.DepartmentModel
+
+
+<h2>@(Model.Did==0?"Add Depattment":"Update Department")</h2>
+<form asp-action="Save" method="post">
+
+	<input type="hidden" asp-for="Did"/>
+
+	<div class="form-group">
+		<label asp-for="Dname"></label>
+		<input asp-for="Dname" class="form-control"/>
+		<span asp-validation-for="Dname" class="text-danger"></span>
+	</div>
+
+	@* <div class="form-group">
+		<label asp-for="Eid"></label>
+		<input asp-for="Eid" class="form-control" />
+		<span asp-validation-for="Eid" class="text-danger"></span>
+	</div>
+ *@
+	<div class="form-group">
+		<label>Employee</label>
+		<select name="Eid" class="form-control">
+			<option value="">Select Employee</option>
+			@foreach (var emp in ViewBag.EmployeeList as IEnumerable<SelectListItem>)
+			{
+				var isSelected = emp.Value == Convert.ToString(Model.Eid) ? "selected" : "";
+				<option value="@emp.Value" selected="@isSelected">@emp.Text</option>
+			}
+		</select>
+	</div>
+
+
+	<br/>
+	<button type="submit"class="btn btn-success">Submit</button>
+	<a asp-action="View" class="btn btn-secondary">Cancel</a>
+
+</form>

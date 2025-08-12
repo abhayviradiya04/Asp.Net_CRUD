@@ -1,0 +1,22 @@
+﻿@model CRUDOprationPractise.Models.EmployeeModel
+<h2>@(Model.Eid==0 ? "Add Employee" : "Update Employee")</h2>
+
+<form asp-action="Save" method="post">
+	<input type="hidden" asp-for="Eid"/>
+	<div class="form-group">
+		<label asp-for="Ename"></label>
+		<input asp-for="Ename" class="form-control"/>
+		<span asp-validation-for="Ename" class="text-danger"></span>
+	</div>
+	<div class="form-group">
+		<label asp-for="Salary"></label>
+		<input asp-for="Salary" class="form-control" />
+		<span asp-validation-for="Salary" class="text-danger"></span>
+	</div>
+	<br/>
+	<button type="submit" class="btn btn-success">
+		Save
+	</button>
+	<a asp-action="View" class="btn btn-secondary">Cancel</a>
+
+</form>
