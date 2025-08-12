@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\.Net Project\\CRUDOprationPractise\\CRUDOprationPractise.csproj": {}
+    "E:\\.Net Project\\CRUDOprationPractise\\Asp.Net_CRUD\\CRUDOprationPractise.csproj": {}
   },
   "projects": {
-    "E:\\.Net Project\\CRUDOprationPractise\\CRUDOprationPractise.csproj": {
+    "E:\\.Net Project\\CRUDOprationPractise\\Asp.Net_CRUD\\CRUDOprationPractise.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\.Net Project\\CRUDOprationPractise\\CRUDOprationPractise.csproj",
+        "projectUniqueName": "E:\\.Net Project\\CRUDOprationPractise\\Asp.Net_CRUD\\CRUDOprationPractise.csproj",
         "projectName": "CRUDOprationPractise",
-        "projectPath": "E:\\.Net Project\\CRUDOprationPractise\\CRUDOprationPractise.csproj",
+        "projectPath": "E:\\.Net Project\\CRUDOprationPractise\\Asp.Net_CRUD\\CRUDOprationPractise.csproj",
         "packagesPath": "C:\\Users\\Abhay\\.nuget\\packages\\",
-        "outputPath": "E:\\.Net Project\\CRUDOprationPractise\\obj\\",
+        "outputPath": "E:\\.Net Project\\CRUDOprationPractise\\Asp.Net_CRUD\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

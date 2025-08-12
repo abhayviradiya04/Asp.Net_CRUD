@@ -19,16 +19,15 @@
 	</div>
  *@
 	<div class="form-group">
-		<label>Employee</label>
-		<select name="Eid" class="form-control">
-			<option value="">Select Employee</option>
-			@foreach (var emp in ViewBag.EmployeeList as IEnumerable<SelectListItem>)
-			{
-				var isSelected = emp.Value == Convert.ToString(Model.Eid) ? "selected" : "";
-				<option value="@emp.Value" selected="@isSelected">@emp.Text</option>
-			}
-		</select>
+		<label for="Eid">Employee</label>
+		@Html.DropDownListFor(
+					model => model.Eid,
+					ViewBag.EmployeeList as IEnumerable<SelectListItem>,
+					"Select Employee",
+					new { @class = "form-control", id = "Eid" }
+					)
 	</div>
+
 
 
 	<br/>
