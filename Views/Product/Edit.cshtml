@@ -1,0 +1,41 @@
+﻿@model ProductManagement.Models.Product
+<h2>Edit Product</h2>
+
+<form asp-action="Edit" enctype="multipart/form-data" method="post">
+    <input type="hidden" asp-for="Id" />
+    <input type="hidden" asp-for="Image" />
+
+    <div class="form-group">
+        <label>Name</label>
+        <input asp-for="Name" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Price</label>
+        <input asp-for="Price" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Category</label>
+        <select asp-for="CategoryId" class="form-control">
+            @foreach (var c in ViewBag.Categories)
+            {
+                <option value="@c.Id" selected="@(c.Id == Model.CategoryId)">
+                    @c.Name
+                </option>
+            }
+        </select>
+    </div>
+    <div class="form-group">
+        <label>Current Image</label><br />
+        @if (!string.IsNullOrEmpty(Model.Image))
+        {
+            <img src="~/images/@Model.Image" width="100" />
+        }
+    </div>
+    <div class="form-group">
+        <label>Change Image</label>
+        <input asp-for="ImageFile" type="file" class="form-control" />
+    </div>
+    <br />
+    <button type="submit" class="btn btn-success">Update</button>
+    <a href="/Product" class="btn btn-secondary">Back</a>
+</form>

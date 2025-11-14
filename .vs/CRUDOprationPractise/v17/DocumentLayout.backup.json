@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "E:\\.Net Project\\CRUDOprationPractise\\Asp.Net_CRUD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2B57E247-DA09-4490-A7BB-AAC919F375DF}|CRUDOprationPractise.csproj|e:\\.net project\\crudoprationpractise\\asp.net_crud\\views\\department\\addoredit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2B57E247-DA09-4490-A7BB-AAC919F375DF}|CRUDOprationPractise.csproj|solutionrelative:views\\department\\addoredit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2B57E247-DA09-4490-A7BB-AAC919F375DF}|CRUDOprationPractise.csproj|e:\\.net project\\crudoprationpractise\\asp.net_crud\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2B57E247-DA09-4490-A7BB-AAC919F375DF}|CRUDOprationPractise.csproj|solutionrelative:controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B57E247-DA09-4490-A7BB-AAC919F375DF}|CRUDOprationPractise.csproj|e:\\.net project\\crudoprationpractise\\asp.net_crud\\views\\department\\addoredit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2B57E247-DA09-4490-A7BB-AAC919F375DF}|CRUDOprationPractise.csproj|solutionrelative:views\\department\\addoredit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2B57E247-DA09-4490-A7BB-AAC919F375DF}|CRUDOprationPractise.csproj|e:\\.net project\\crudoprationpractise\\asp.net_crud\\views\\employee\\addoredit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -38,30 +38,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AddOrEdit.cshtml",
               "DocumentMoniker": "E:\\.Net Project\\CRUDOprationPractise\\Asp.Net_CRUD\\Views\\Department\\AddOrEdit.cshtml",
               "RelativeDocumentMoniker": "Views\\Department\\AddOrEdit.cshtml",
-              "ToolTip": "E:\\.Net Project\\CRUDOprationPractise\\Asp.Net_CRUD\\Views\\Department\\AddOrEdit.cshtml*",
-              "RelativeToolTip": "Views\\Department\\AddOrEdit.cshtml*",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABwAAAAHAAAAAAAAAA==",
+              "ToolTip": "E:\\.Net Project\\CRUDOprationPractise\\Asp.Net_CRUD\\Views\\Department\\AddOrEdit.cshtml",
+              "RelativeToolTip": "Views\\Department\\AddOrEdit.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABoAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-08-12T07:49:30.76Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "DepartmentController.cs",
               "DocumentMoniker": "E:\\.Net Project\\CRUDOprationPractise\\Asp.Net_CRUD\\Controllers\\DepartmentController.cs",
               "RelativeDocumentMoniker": "Controllers\\DepartmentController.cs",
               "ToolTip": "E:\\.Net Project\\CRUDOprationPractise\\Asp.Net_CRUD\\Controllers\\DepartmentController.cs",
               "RelativeToolTip": "Controllers\\DepartmentController.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAgwCwAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAqwCYAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-12T07:45:09.578Z",
               "EditorCaption": ""

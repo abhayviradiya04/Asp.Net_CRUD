@@ -1,0 +1,33 @@
+﻿@model IEnumerable<ProductManagement.Models.Product>
+
+<h2>Product List</h2>
+<a href="/Product/Create" class="btn btn-primary">Add Product</a>
+<table class="table table-bordered mt-3">
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Category</th>
+        <th>Image</th>
+        <th>Action</th>
+    </tr>
+    @foreach (var p in Model)
+    {
+        <tr>
+            <td>@p.Id</td>
+            <td>@p.Name</td>
+            <td>@p.Price</td>
+            <td>@p.CategoryName</td>
+            <td>
+                @if (!string.IsNullOrEmpty(p.Image))
+                {
+                    <img src="~/images/@p.Image" width="80" />
+                }
+            </td>
+            <td>
+                <a href="/Product/Edit/@p.Id" class="btn btn-warning btn-sm">Edit</a>
+                <a href="/Product/Delete/@p.Id" class="btn btn-danger btn-sm">Delete</a>
+            </td>
+        </tr>
+    }
+</table>

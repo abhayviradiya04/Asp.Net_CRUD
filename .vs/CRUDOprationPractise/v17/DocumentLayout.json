@@ -48,7 +48,7 @@
               "RelativeDocumentMoniker": "Views\\Department\\AddOrEdit.cshtml",
               "ToolTip": "E:\\.Net Project\\CRUDOprationPractise\\Asp.Net_CRUD\\Views\\Department\\AddOrEdit.cshtml",
               "RelativeToolTip": "Views\\Department\\AddOrEdit.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABoAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABoAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-08-12T07:49:30.76Z",
               "EditorCaption": ""
@@ -61,7 +61,7 @@
               "RelativeDocumentMoniker": "Controllers\\DepartmentController.cs",
               "ToolTip": "E:\\.Net Project\\CRUDOprationPractise\\Asp.Net_CRUD\\Controllers\\DepartmentController.cs",
               "RelativeToolTip": "Controllers\\DepartmentController.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAqwCYAAABKAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAuwDAAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-12T07:45:09.578Z",
               "EditorCaption": ""
@@ -76,8 +76,7 @@
               "RelativeToolTip": "Views\\Employee\\AddOrEdit.cshtml",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-12T07:42:51.351Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-12T07:42:51.351Z"
             },
             {
               "$type": "Document",
@@ -89,8 +88,7 @@
               "RelativeToolTip": "Views\\Employee\\View.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-12T07:40:40.116Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-12T07:40:40.116Z"
             },
             {
               "$type": "Document",
@@ -102,8 +100,7 @@
               "RelativeToolTip": "Controllers\\EmployeeController.cs",
               "ViewState": "AgIAADoAAAAAAAAAAAAkwDQAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T07:35:03.179Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-12T07:35:03.179Z"
             },
             {
               "$type": "Document",
@@ -115,8 +112,7 @@
               "RelativeToolTip": "Models\\EmployeeModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T07:34:57.797Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-12T07:34:57.797Z"
             },
             {
               "$type": "Document",
@@ -128,8 +124,7 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-12T07:31:43.867Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-12T07:31:43.867Z"
             }
           ]
         }
