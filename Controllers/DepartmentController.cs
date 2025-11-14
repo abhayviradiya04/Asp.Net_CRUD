@@ -23,6 +23,14 @@ namespace CRUDOprationPractise.Controllers
             SqlDataReader reader=command.ExecuteReader();
             DataTable dt = new DataTable();
             dt.Load(reader);
+
+            //===>Total Rakhva mate
+             //SqlCommand cmd2 = new SqlCommand("PR_Employe_Count", con);
+             //cmd2.CommandType = CommandType.StoredProcedure;
+
+             //int totalCount = Convert.ToInt32(cmd2.ExecuteScalar());
+             // send count to view
+            // ViewBag.TotalCount = totalCount;
             return View(dt);
         }
         [HttpGet]
